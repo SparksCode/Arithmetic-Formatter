@@ -66,7 +66,7 @@ def arithmetic_arranger(problems, showAnswer=False):
       line4 += str(solution).rjust(space)
 
   #Return Arranged Problems
-  arranged_problems = line1 + "\n" + line2 + "\n" + line3
+  arranged_problems = f"{line1}\n{line2}\n{line3}"
   if showAnswer:
-    arranged_problems += "\n" + line4
+    arranged_problems += f"\n{line4}"
   return arranged_problems
